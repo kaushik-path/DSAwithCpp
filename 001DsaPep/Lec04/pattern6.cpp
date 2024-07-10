@@ -1,7 +1,7 @@
-// 1 2 3
-// 1 2 3
-// 1 2 3
-
+// 3
+//  * 
+//  *  * 
+//  *  *  * 
 #include<iostream>
 using namespace std;
 
@@ -12,13 +12,13 @@ int main(){
     while (i<=n)
     {
         int j=1;
-        while (j<=n)
+        while (j<=i)
         {
-            cout<<" "<<j;
-            j+=1;
+            cout<<" * ";
+            j++;
         }
         cout<<endl;
-        i+=1;
+        i++;
     }
     return 0;
 }

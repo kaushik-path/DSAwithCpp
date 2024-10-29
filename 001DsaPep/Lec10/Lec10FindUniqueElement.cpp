@@ -10,6 +10,8 @@ int findUnique(int *arr, int size){
 }
 int main(){
     int arr[] = {1,5,6,5,1};
-    findUnique(arr,5);
+    int unique = findUnique(arr,5);
+    // unique means comes only one or single time
+    cout<<unique;
     return 0;
 }

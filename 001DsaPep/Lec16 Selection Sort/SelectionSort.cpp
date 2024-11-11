@@ -6,7 +6,7 @@ void SelectionSort(vector<int> arr, int n) {
     for (int i = 0; i < arr.size(); i++) {
         int minIndex = i;
         for (int j = i + 1; j < n; j++) {
-            if (arr[minIndex] > arr[j]) {
+            if (arr[j] < arr[minIndex]) {
                 minIndex = j;
             }
         }

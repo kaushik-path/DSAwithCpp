@@ -32,7 +32,7 @@ bool checkPalindrome(string s){
     }
     return 1;
 }
-bool isPalindrome(string s){
+bool isPalindrome(string s){ // all check in this function
     string temp = "";
     for(int i=0; i<s.length(); i++){
         if(validChar(s[i])){
